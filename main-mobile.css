@@ -32,3 +32,19 @@
     padding-left: .5rem;
     padding-right: 1rem;
   }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+      
+  }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        max-width: 50%;
+        max-height: 100%;
+        object-fit: cover;
+    }
