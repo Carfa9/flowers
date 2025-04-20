@@ -1,36 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work-Sans", sans-serif;
+    font-weight: 600;
+    color: #533f31;
+    margin: 0;
+}
+
 .link-style {
     color: #727272;
-    
-    font-family: Work-Sans, sans-serif;
-    font-weight: 600;
-    font-size: .875 em;
+    font-size: 14px;
     padding-right: .25rem;
     padding-left: .5rem;
   }
 
-  .fas.fa-home {
+  .home-icon {
     color: #727272;
     font-family: "Font Awesome 5 Free";
-    font-size: large;
+    font-size: medium;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: .5rem;
+    
   }
   
-  .fa-solid.fa-chevron-right {
+  .arrow-right {
     color: #cccdd2;  
     font-family: "Font Awesome 5 Free";
     font-size: x-small;
   }
 
+  .magnifier {
+    position:absolute;
+    background-color: #fff;
+    color: #020202;
+    border-radius: .1rem;
+    top: 3rem;
+    right: 10rem;
+}
+
   .nav-container {
     display: flex;
-    flex-direction: row;    
+    justify-content: flex-start;
+    align-items: center;   
     margin-top: 2rem;
   }
+
+  .nav-container a {
+    display: flex;
+  }
+
 
   .text-padding {
     padding-left: .5rem;
     padding-right: 1rem;
+
   }
 
   .image-container {
@@ -38,6 +63,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    position: relative;
       
   }
 
@@ -48,3 +74,4 @@
         max-height: 100%;
         object-fit: cover;
     }
+
