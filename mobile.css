@@ -44,7 +44,7 @@ header.site-header {
 
 .accessibility {
   position: fixed;
-  top: 8rem;
+  top: 5rem;
   left: 0;
   padding: 1rem;
   color: white;
@@ -61,5 +61,3 @@ body {
 main {
   background-color: #fff;
 }
-
-
