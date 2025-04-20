@@ -36,8 +36,8 @@ body {
     background-color: #fff;
     color: #020202;
     border-radius: .1rem;
-    top: 3rem;
-    right: 10rem;
+    top: 1rem;
+    right: 1rem;
 }
 
   .nav-container {
@@ -52,10 +52,10 @@ body {
   }
 
 
-  .text-padding {
+  .text-style {
     padding-left: .5rem;
     padding-right: 1rem;
-
+    font-size: 14px;
   }
 
   .image-container {
@@ -64,13 +64,12 @@ body {
     align-items: center;
     margin-top: 2rem;
     position: relative;
-      
+    width: 50%;
   }
 
     .image-container img {
         width: 100%;
         height: auto;
-        max-width: 50%;
         max-height: 100%;
         object-fit: cover;
     }
