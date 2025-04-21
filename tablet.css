@@ -4,7 +4,7 @@
     padding-left: 15rem;
   }
 
-
-
-  
+  .image-container {
+    justify-content: flex-start;
+  }
 }
