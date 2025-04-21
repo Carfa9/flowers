@@ -1,17 +1,28 @@
 @media (min-width: 64rem) {
-    
+
+    .nav-container {
+        margin-left: 20rem;
+    }
     .image-container img {
         max-width: 50%;
         max-height: auto;
         object-fit: cover;
+        margin-left: 20rem;
       }
       .image-container .magnifier {
         position: absolute;
         top: 3%;
-        right: 53%;
+        right: 52%;
       }
 
     .text-container {
-        margin-right: 50rem;
+        display: flex;
     }
+    
+    .main-product {
+        flex-direction: row;
+        margin-right: 40rem;
+       
+        
+      }
 }
