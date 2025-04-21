@@ -1,6 +1,17 @@
 @media (min-width: 64rem) {
-    .image-container {    
-        justify-content: flex-start;
-       
+    
+    .image-container img {
+        max-width: 50%;
+        max-height: auto;
+        object-fit: cover;
       }
+      .image-container .magnifier {
+        position: absolute;
+        top: 3%;
+        right: 53%;
+      }
+
+    .text-container {
+        margin-right: 50rem;
+    }
 }
