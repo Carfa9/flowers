@@ -1,15 +1,19 @@
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
 .link-style {
     color: #727272;
     font-size: 14px;
     padding-right: .25rem;
-    padding-left: .5rem;
   }
 
   .home-icon {
     color: #727272;
     font-family: "Font Awesome 5 Free";
     font-size: medium;
-    padding-left: 1rem;
     padding-right: .5rem;
     
   }
@@ -45,30 +49,24 @@
 
     .image-container {
         display: flex;
-        margin-top: 2rem; 
         justify-content: center;
         position: relative;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
     }
+
     .image-container img {
-        width: 100%;
-        height: auto;
-        max-width: 90%;
-        max-height: 100%;
+        max-width: 100%;
+        max-height: auto;
         object-fit: cover;
     }
 
     .image-container .magnifier {
         position: absolute;
-        top: 3%;
-        right: 10%;   
+        top: 1rem;
+        right: 1rem;   
     }
 
-    .text-container {
-        display: flex;
-        justify-content: center;
+    .text-container span {
+        margin-left: 1rem;
     }
 
     .text-container h1 {
@@ -77,6 +75,30 @@
         font-weight: 500;
         font-style: normal;
     }
+
+    .main-product {
+       display:flex;
+       flex-direction: column;
+       width: 100%;
+       height: auto;   
+       margin-top: 2rem;
+    }
+
+    .stock-status {
+        display: flex;
+        flex-direction: row;        
+        align-items: center;
+    }
+
+    .stock-status p {
+       color: #BB271A;
+       font-weight: 500;
+       padding-left: .5rem;
+    }
+
+
+
+
 
           
 
