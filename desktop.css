@@ -1,28 +1,34 @@
 @media (min-width: 64rem) {
 
-    .nav-container {
-        margin-left: 20rem;
+
+
+    .image-container {
+        flex: 1;
+      flex-direction: column;        
     }
+
     .image-container img {
-        max-width: 50%;
+        max-width: 100%;
         max-height: auto;
         object-fit: cover;
-        margin-left: 20rem;
-      }
+    }
+       
       .image-container .magnifier {
         position: absolute;
-        top: 3%;
-        right: 52%;
+        top: 1rem;
+        right: 1rem;
+      }
+ 
+    .main-product {
+        max-width: 100%;
+        max-height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 4rem;
+        gap: 2rem;
       }
 
-    .text-container {
-        display: flex;
-    }
-    
-    .main-product {
-        flex-direction: row;
-        margin-right: 40rem;
-       
-        
+      .text-container{
+        flex: 1;
       }
 }
