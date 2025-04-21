@@ -114,7 +114,7 @@ main {
         text-decoration: underline;        
     }
 
-    .description-container {
+    .description-link {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -123,16 +123,46 @@ main {
        font-weight: 500;
     }
 
-    .description-container nav {
+    .description-link nav {
         padding: .2rem;
         margin-top: 1rem;
-        font-size: 14px;
+        font-size: 16px;
         color: #727272;
         text-decoration: underline; 
     }
 
     .arrow-icon {
         margin-top: 1rem;
+    }
+
+    .description-container {
+        border-top:rgba(0, 0, 0, .05) solid 1px;
+        font-weight: 500;
+        margin-top: 1rem; 
+        
+    }
+
+    .description-container h2 {
+        font-weight: 500; 
+        font-size: 25px;
+    }
+
+    .description-container p {
+        font-size: 14px;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+    }
+
+    .related-products {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;      
+    }
+
+    .related-products h2 {
+        display: flex;
+        font-weight: 500; 
+        
     }
 
 
