@@ -1,14 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Work-Sans", sans-serif;
-    font-weight: 600;
-    color: #533f31;
-    margin: 0;
-}
-
 .link-style {
     color: #727272;
     font-size: 14px;
@@ -75,5 +64,10 @@ body {
         position: absolute;
         top: 3%;
         right: 27%;   
+    }
+
+    .text-container {
+        display: flex;
+        justify-content: center;
     }
 
