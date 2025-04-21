@@ -161,10 +161,22 @@ main {
 
     .related-products h2 {
         display: flex;
-        font-weight: 500; 
-        
+        font-weight: 500;         
     }
 
+    .img-container {       
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 10rem;
+    }
+
+    .img-container img {
+        max-width: 100%;
+        max-height: auto;
+        object-fit: cover;
+    }
 
 
 
