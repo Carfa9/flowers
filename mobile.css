@@ -68,11 +68,22 @@ footer {
   background-color: #533f31;
   font-size: 15px;
   display: flex;
+  flex-flow: column;
+}
+
+footer p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+footer div {
+  display: flex;
   flex-flow: wrap;
   justify-content: center;
 }
 
-footer section {
+footer .div-section {
+  /*section innuti yttre diven*/
   flex: 1 1 calc(50% - 1rem);
   text-align: center;
   display: flex;
@@ -82,7 +93,9 @@ footer section {
   padding-bottom: 2rem;
 }
 
-footer section div {
+footer .section-div {
+  /*diven innuti section*/
+  flex-flow: column;
   text-align: left;
   padding-left: 5rem;
   padding: 1rem;
@@ -99,14 +112,14 @@ footer .img-icon {
 footer .img-instagram {
   display: flex; /*gör att länk och ikon hamnar på samma linje*/
   align-items: center; /* vertikalt centrerad ikon + text */
-  justify-content: center; /* valfritt: centrerar allt horisontellt */
+  justify-content: center;
   gap: 0.5rem; /* lite luft mellan ikon och länk */
   margin: 0;
 }
 
 footer .img-klarna {
   width: 10rem;
-  margin: auto;
+  margin: 0;
 }
 
 footer a {
@@ -132,4 +145,18 @@ footer .border-bottom {
 footer .border-top {
   border-top: solid #eaebe7;
   border-width: 0.1rem;
+}
+
+footer #copyright {
+  /*section längst ner utanför diven*/
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+footer > section p {
+  /*direkta barn i detta fallet adress i section tex.*/
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

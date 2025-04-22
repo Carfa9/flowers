@@ -4,7 +4,7 @@
     padding-left: 10rem;
   }
 
-  footer section {
+  footer .div-section {
     display: flex;
     flex-wrap: nowrap;
     border-bottom: solid #eaebe7;
