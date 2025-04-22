@@ -1,5 +1,5 @@
 main {
-    margin-left: auto;
+    margin-left: 1.5rem;
     margin-right: auto;
     width: 70%
 }
@@ -144,7 +144,7 @@ main {
 
     .description-container h2 {
         font-weight: 500; 
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .description-container p {
@@ -155,28 +155,24 @@ main {
 
     .related-title {
         flex-direction: row;
-        justify-content: center;
-    }
-
-    .related-title h2 {
-        display:inline;
-        justify-content: center;
-        font-size: 25px;
+        justify-content: left;
         font-weight: 500;
+        font-size: 23px;
     }
 
     .related-products {
         display: flex;
-        flex-direction: row;
-        max-width: 100%;      
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;      
     }
 
-    .img-container {       
+    .img-container { 
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        justify-content: space-between;
-        gap: 1rem;
-        margin-top: 10rem;
+        grid-template-columns: repeat(2, 1fr);           
+        gap: .5rem;
+        margin-bottom: 2rem;
     }
 
     .img-container img {
