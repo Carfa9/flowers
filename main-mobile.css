@@ -1,7 +1,7 @@
 main {
     margin-left: 1.5rem;
     margin-right: auto;
-    width: 70%
+    width: 90%
 }
 
 .link-style {
@@ -172,7 +172,8 @@ main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);           
         gap: .5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
+        row-gap: 6rem;
     }
 
     .img-container img {
@@ -180,6 +181,30 @@ main {
         max-height: auto;
         object-fit: cover;
     }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .product img {
+        width: 100%;        
+        object-fit: cover;        
+      }
+      
+      .product-name {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        text-decoration: underline;
+      }
+
+      .product-price {
+        margin-top: 0.5rem;
+        font-size: .9rem;
+        text-decoration: underline;
+      }
 
 
 
