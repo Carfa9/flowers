@@ -4,10 +4,10 @@
 }
 
 body {
-  font-family: "Work-Sans", sans-serif;
-  font-weight: 600;
+  font-family: "WorkSans", sans-serif;
+  font-weight: 500;
   color: #533f31;
-  margin: 0;
+  margin: 0 auto;
 }
 
 main {
@@ -24,10 +24,10 @@ header {
 header .logo {
   margin-top: auto;
   margin-bottom: auto;
-  /*puttar ner och trycker upp, typ centrerar*/
+  /* puttar ner och trycker upp, typ centrerar */
   margin-left: auto;
   margin-right: auto;
-  /*puttar mot mitten*/
+  /* puttar mot mitten */
 }
 
 header .menu {
@@ -63,7 +63,8 @@ header.site-header {
 }
 
 footer {
-  padding-top: 5rem;
+  padding-top: 4rem;
+  font-weight: 500;
   background-color: #533f31;
   font-size: 15px;
   display: flex;
@@ -78,13 +79,29 @@ footer section {
   flex-flow: column;
   background-color: #fff;
   color: #533f31;
+  padding-bottom: 2rem;
+}
+
+footer section div {
+  text-align: left;
+  padding-left: 5rem;
+  padding: 1rem;
+  margin: 0 auto;
 }
 
 footer .img-icon {
   padding-top: 0.5rem;
-  margin: auto;
+  margin-left: 4rem;
   width: 5rem;
   height: 5rem;
+}
+
+footer .img-instagram {
+  display: flex; /*gör att länk och ikon hamnar på samma linje*/
+  align-items: center; /* vertikalt centrerad ikon + text */
+  justify-content: center; /* valfritt: centrerar allt horisontellt */
+  gap: 0.5rem; /* lite luft mellan ikon och länk */
+  margin: 0;
 }
 
 footer .img-klarna {
@@ -95,4 +112,24 @@ footer .img-klarna {
 footer a {
   text-decoration: none;
   color: #533f31;
+}
+
+footer .border-right {
+  border-right: solid #eaebe7;
+  border-width: 0.1rem;
+}
+
+footer .border-left {
+  border-left: solid #eaebe7;
+  border-width: 0.1rem;
+}
+
+footer .border-bottom {
+  border-bottom: solid #eaebe7;
+  border-width: 0.1rem;
+}
+
+footer .border-top {
+  border-top: solid #eaebe7;
+  border-width: 0.1rem;
 }
