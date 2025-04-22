@@ -1,7 +1,15 @@
 @media (min-width: 48rem) {
   header .logo {
     margin-left: 0;
-    padding-left: 15rem;
+    padding-left: 10rem;
+  }
+
+  footer section {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: solid #eaebe7;
+    border-width: 0.1rem;
+    flex: 1 1 calc(25% - 1rem);
   }
 
   .image-container {
