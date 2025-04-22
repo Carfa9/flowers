@@ -81,6 +81,7 @@ footer section {
 }
 
 footer .img-icon {
+  padding-top: 0.5rem;
   margin: auto;
   width: 5rem;
   height: 5rem;
