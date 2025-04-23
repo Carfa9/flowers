@@ -206,6 +206,25 @@ main {
         text-decoration: underline;
       }
 
+      .sold-out-badge {
+        position: absolute;
+        top: 2rem;
+        left: 0rem;
+        background-color: #533f31;
+        color: white;
+        padding: 0.5rem 0.9rem;
+        font-size: .8rem;
+        font-weight: bold;
+        border-radius: 0.1rem;
+        letter-spacing: 0.5px;
+        z-index: 1;
+      }
+
+      .image-wrapper {
+        position: relative;
+        width: 100%;
+      }
+
 
 
 
