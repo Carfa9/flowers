@@ -1,10 +1,8 @@
 @media (min-width: 64rem) {
 
-
-
     .image-container {
-        flex: 1;
-      flex-direction: column;        
+        grid-column: 1 / 2;
+        grid-row: 1;       
     }
 
     .image-container img {
@@ -18,17 +16,30 @@
         top: 1rem;
         right: 1rem;
       }
+
+      .text-container {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
  
     .main-product {
         max-width: 100%;
         max-height: auto;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
         margin-top: 4rem;
         gap: 2rem;
       }
 
-      .text-container{
-        flex: 1;
+      .img-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
       }
-}
+
+      .description-container {
+        grid-column: 1 / 3;
+        grid-row: 2;
+      }
+    }
+
