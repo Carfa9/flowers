@@ -1,5 +1,9 @@
 @media (min-width: 64rem) {
 
+    .nav-container {
+       margin-left: 5rem;
+    }
+
     .image-container {
         grid-column: 1 / 2;
         grid-row: 1;       
@@ -23,6 +27,7 @@
     }
  
     .main-product {
+        margin-left: 5rem;
         max-width: 100%;
         max-height: auto;
         display: grid;
