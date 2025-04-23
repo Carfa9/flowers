@@ -1,5 +1,9 @@
 @media (min-width: 64rem) {
-
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%
+    }
 
     .image-container {
         grid-column: 1 / 2;
@@ -7,12 +11,11 @@
     }
 
     .nav-container {
-        margin-left: 15rem;
+        
     }
 
     .image-container img {
-        max-width: 30rem;
-        max-height: 40rem;
+        max-width: 100%;
         object-fit: cover;
         position : relative;
     }
@@ -32,33 +35,59 @@
         max-width: 100%;
         max-height: auto;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 3fr;
         grid-template-rows: auto auto;
         margin-top: 4rem;
         gap: 2rem;
-        margin-left: 15rem;
       }
 
       .img-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 10rem;
+        gap: 4rem;
       } 
       
       .img-container img {
-        max-width: 70%;
+        max-width: 100%;
         max-height: auto;
         object-fit: cover;
       }
 
-      .description-container {
-        grid-column: 1 / 3;
-        grid-row: 2;
-      }
-
       .related-title {
         text-align: center;
-        padding-left: 9rem;
       }
+
+      .description-container {
+        display: grid;
+        justify-content: start;
+        align-items: start;
+        gap: 2rem;
+        grid-template-columns: 2fr 3fr;
+        margin-bottom: 4rem;
+      }
+
+      .description-link nav {
+        margin-top: 0;
+    }
+
+    .arrow-icon {
+        margin-top: 0;
+    }
+
+    .material-symbols-outlined.icon-mobile{
+        display: none;
+    }
+
+    .material-symbols-outlined.icon-desktop{
+        display: inline;
+    }
+
+      .description-container div {
+        grid-row: 1;
+      }
+
+      .description {
+        margin-top: 0;        
+    }
     }
 
