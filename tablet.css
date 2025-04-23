@@ -15,4 +15,9 @@
   .image-container {
     justify-content: flex-start;
   }
+
+  .img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
