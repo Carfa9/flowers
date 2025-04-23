@@ -136,18 +136,23 @@ main {
     }
 
     .description-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;       
+    }
+    .description {
         border-top:rgba(0, 0, 0, .05) solid 1px;
         font-weight: 500;
-        margin-top: 1rem; 
-        
+        margin-top: 1rem;        
     }
 
-    .description-container h2 {
+    .description h2 {
         font-weight: 500; 
         font-size: 23px;
     }
 
-    .description-container p {
+    .description p {
         font-size: 14px;
         padding-top: .5rem;
         padding-bottom: 1rem;
