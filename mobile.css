@@ -33,19 +33,22 @@ header .logo {
 header .menu {
   background-color: #533f31;
   color: white;
-  padding: 0.2rem;
-  width: 5rem;
-  height: 5rem;
+  padding-right: 4.5rem;
+  width: 4rem;
+  height: 4rem;
   margin-top: auto; /*Puttar ner menydiven likt grow*/
 }
 
 header .menu-p {
-  margin: 0;
+  padding-left: 1rem;
+  margin: auto;
   text-align: center;
 }
 
 header .icon-size {
-  font-size: 34pt;
+  font-size: 30pt;
+  margin: 0;
+  padding: 0;
   padding-left: 1rem;
 }
 
@@ -55,12 +58,50 @@ header.site-header {
 
 .accessibility {
   position: fixed;
-  top: 5rem;
+  border-style: solid;
+  top: 7rem;
   left: 0;
   padding: 1rem;
   color: white;
   background-color: #533f31;
+  border-top: 2px solid #533f31;
+  border-right: 2px solid #533f31;
+  border-bottom: 2px solid #533f31;
+  box-shadow: inset 0 1px 0 white, inset 0 -1px 0 white, /* top */ inset -1px 0 0 white /* right */;
   z-index: 1;
+}
+
+.basket {
+  position: fixed;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  bottom: 1rem;
+  right: 2rem;
+  border-style: solid, #533f31;
+  padding-top: 0.7rem;
+  border-radius: 50%;
+  color: white;
+  background-color: #533f31;
+  z-index: 1;
+}
+
+.material-icon {
+  font-size: 38px;
+}
+
+.counter {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
 }
 
 footer {
