@@ -120,29 +120,35 @@ main {
         align-items: center;
         justify-content: space-between;
         border-top:rgba(0, 0, 0, .05) solid 1px;
+        border-bottom:rgba(0, 0, 0, .05) solid 1px;
        font-weight: 500;
+       padding-top: 0.5rem;
+       padding-bottom: 0.5rem;
+       width: 100%;
     }
 
     .description-link nav {
         padding: .2rem;
-        margin-top: 1rem;
         font-size: 16px;
         color: #727272;
         text-decoration: underline; 
     }
 
-    .arrow-icon {
-        margin-top: 1rem;
+
+    .material-symbols-outlined.icon-mobile{
+        display: inline;
+    }
+
+    .material-symbols-outlined.icon-desktop{
+        display: none;
     }
 
     .description-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;       
+        align-items: flex-start;    
     }
     .description {
-        border-top:rgba(0, 0, 0, .05) solid 1px;
         font-weight: 500;
         margin-top: 1rem;        
     }
@@ -170,7 +176,6 @@ main {
         flex-wrap: wrap;
         max-width: 100%;
         margin: 0 auto;
-        padding: 0 1rem;      
     }
 
     .img-container { 
