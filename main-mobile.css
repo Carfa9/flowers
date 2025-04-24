@@ -8,242 +8,237 @@ main {
     color: #727272;
     font-size: 14px;
     padding-right: .25rem;
-  }
+}
 
-  .home-icon {
+.home-icon {
     color: #727272;
     font-family: "Font Awesome 5 Free";
     font-size: medium;
     padding-right: .5rem;
-    
-  }
-  
-  .arrow-right {
-    color: #cccdd2;  
+
+}
+
+.arrow-right {
+    color: #cccdd2;
     font-family: "Font Awesome 5 Free";
     font-size: x-small;
-  }
+}
 
-  .magnifier {
+.magnifier {
     background-color: #fff;
     color: #020202;
     border-radius: .1rem;
 }
 
-  .nav-container {
+.nav-container {
     display: flex;
     justify-content: flex-start;
-    align-items: center;   
+    align-items: center;
     margin-top: 2rem;
-  }
+}
 
-  .nav-container a {
+.nav-container a {
     display: flex;
-  }
+}
 
-  .text-style {
+.text-style {
     padding-left: .5rem;
     padding-right: 1rem;
     font-size: 14px;
-  }
+}
 
-    .image-container {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        overflow: hidden;
-        display: inline-block;
-    }
+.image-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
 
-    .image-container img {
-        max-width: 100%;
-        max-height: auto;
-        object-fit: cover;
-        transition: transform 0.1s ease;
-    }
+.image-container img {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    transition: transform 0.1s ease;
+}
 
-    .image-container:hover img {
-        transform: scale(1.9);
-      }
+.image-container:hover img {
+    transform: scale(1.9);
+}
 
-    .image-container .magnifier {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;   
-    }
+.image-container .magnifier {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
 
-    .text-container h1 {
-        font-family: "Work Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 2rem;
-    }
+.text-container h1 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
 
-    .main-product {
-       display:flex;
-       flex-direction: column;
-       width: 100%;
-       height: auto;   
-       margin-top: 2rem;
-    }
+.main-product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
 
-    .stock-status {
-        display: flex;
-        flex-direction: row;        
-        align-items: center;
-    }
+.stock-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-    .stock-status p {
-       color: #BB271A;
-       font-weight: 500;
-       padding-left: .5rem;
-    }
+.stock-status p {
+    color: #BB271A;
+    font-weight: 500;
+    padding-left: .5rem;
+}
 
-    .category-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 1rem;
-       border-top:rgba(0, 0, 0, .05) solid 1px;
-       font-weight: 500;
-    }
+.category-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: rgba(0, 0, 0, .05) solid 1px;
+    font-weight: 500;
+}
 
-    .category-container p {
-        padding: .2rem;
-        font-size: 14px;
-    }
+.category-container p {
+    padding: .2rem;
+    font-size: 14px;
+}
 
-    .category-container nav {
-        padding: .2rem;
-        font-size: 14px;
-        color: #727272;
-        text-decoration: underline;        
-    }
+.category-container nav {
+    padding: .2rem;
+    font-size: 14px;
+    color: #727272;
+    text-decoration: underline;
+}
 
-    .description-link {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        border-top:rgba(0, 0, 0, .05) solid 1px;
-        border-bottom:rgba(0, 0, 0, .05) solid 1px;
-       font-weight: 500;
-       padding-top: 0.5rem;
-       padding-bottom: 0.5rem;
-       width: 100%;
-    }
+.description-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: rgba(0, 0, 0, .05) solid 1px;
+    border-bottom: rgba(0, 0, 0, .05) solid 1px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
 
-    .description-link nav {
-        padding: .2rem;
-        font-size: 16px;
-        color: #727272;
-        text-decoration: underline; 
-    }
-
-
-    .material-symbols-outlined.icon-mobile{
-        display: inline;
-    }
-
-    .material-symbols-outlined.icon-desktop{
-        display: none;
-    }
-
-    .description-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;    
-    }
-    .description {
-        font-weight: 500;
-        margin-top: 1rem;        
-    }
-
-    .description h2 {
-        font-weight: 500; 
-        font-size: 23px;
-    }
-
-    .description p {
-        font-size: 14px;
-        padding-top: .5rem;
-        padding-bottom: 1rem;
-    }
-
-    .related-title {
-        flex-direction: row;
-        justify-content: left;
-        font-weight: 500;
-        font-size: 23px;
-    }
-
-    .related-products {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .img-container { 
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);           
-        gap: .5rem;
-        margin-bottom: 4rem;
-        row-gap: 6rem;
-    }
-
-    .img-container img {
-        max-width: 100%;
-        max-height: auto;
-        object-fit: cover;
-    }
-
-    .product {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-      
-      .product img {
-        width: 100%;        
-        object-fit: cover;        
-      }
-      
-      .product-name {
-        margin-top: 0.5rem;
-        font-size: 0.9rem;
-        text-decoration: underline;
-      }
-
-      .product-price {
-        margin-top: 0.5rem;
-        font-size: .9rem;
-        text-decoration: underline;
-      }
-
-      .sold-out-badge {
-        position: absolute;
-        top: 2rem;
-        left: 0rem;
-        background-color: #533f31;
-        color: white;
-        padding: 0.5rem 0.9rem;
-        font-size: .8rem;
-        font-weight: bold;
-        border-radius: 0.1rem;
-        letter-spacing: 0.5px;
-        z-index: 1;
-      }
-
-      .image-wrapper {
-        position: relative;
-        width: 100%;
-      }
+.description-link nav {
+    padding: .2rem;
+    font-size: 16px;
+    color: #727272;
+    text-decoration: underline;
+}
 
 
+.material-symbols-outlined.icon-mobile {
+    display: inline;
+}
 
+.material-symbols-outlined.icon-desktop {
+    display: none;
+}
 
-          
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.description {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.description h2 {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.description p {
+    font-size: 14px;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.related-title {
+    flex-direction: row;
+    justify-content: left;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.related-products {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    margin-bottom: 4rem;
+    row-gap: 6rem;
+}
+
+.img-container img {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-name {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.product-price {
+    margin-top: 0.5rem;
+    font-size: .9rem;
+    text-decoration: underline;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    background-color: #533f31;
+    color: white;
+    padding: 0.5rem 0.9rem;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 0.1rem;
+    letter-spacing: 0.5px;
+    z-index: 1;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+}
