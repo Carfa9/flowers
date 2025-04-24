@@ -183,7 +183,7 @@ ul {
 .column-container {
   background-color: #e9e9e4;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   height: 3rem;
   text-align: center;
   display: flex;
@@ -194,12 +194,12 @@ ul {
 .icon-size {
   font-size: 2rem;
   font-weight: 200;
+  color: black;
 }
 
 .my-account {
   display: flex;
   text-align: center;
-
   color: black;
 }
 
