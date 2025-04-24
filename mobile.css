@@ -194,6 +194,11 @@ ul {
 .icon-size {
   font-size: 2rem;
   font-weight: 200;
+}
+
+.mobile-bar-icon-size {
+  font-size: 2rem;
+  font-weight: 200;
   color: black;
 }
 
