@@ -1,7 +1,8 @@
 @media (min-width: 48rem) {
   header .logo {
     margin-left: 0;
-    padding-left: 10rem;
+    padding-left: 15rem;
+    width: 31.25rem;
   }
 
   main {
