@@ -16,9 +16,6 @@
     grid-row: 1;
   }
 
-  .nav-container {
-  }
-
   .image-container img {
     max-width: 100%;
     object-fit: cover;
