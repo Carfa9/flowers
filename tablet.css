@@ -7,24 +7,23 @@
   main {
     margin-left: auto;
     margin-right: auto;
-    width: 70%
-}
+    width: 70%;
+  }
 
-.image-container {
+  .image-container {
     grid-column: 1 / 2;
-    grid-row: 1;      
-}
+    grid-row: 1;
+  }
 
-.nav-container {
-    
-}
+  .nav-container {
+  }
 
-.image-container img {
+  .image-container img {
     max-width: 100%;
     object-fit: cover;
-    position : relative;
-}
-   
+    position: relative;
+  }
+
   .image-container .magnifier {
     position: absolute;
     top: 1rem;
@@ -34,9 +33,9 @@
   .text-container {
     grid-column: 2 / 3;
     grid-row: 1;
-}
+  }
 
-.main-product {
+  .main-product {
     max-width: 100%;
     max-height: auto;
     display: grid;
@@ -50,8 +49,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
-  } 
-  
+  }
+
   .img-container img {
     max-width: 100%;
     max-height: auto;
@@ -73,27 +72,27 @@
 
   .description-link nav {
     margin-top: 0;
-}
+  }
 
-.arrow-icon {
+  .arrow-icon {
     margin-top: 0;
-}
+  }
 
-.material-symbols-outlined.icon-mobile{
+  .material-symbols-outlined.icon-mobile {
     display: none;
-}
+  }
 
-.material-symbols-outlined.icon-desktop{
+  .material-symbols-outlined.icon-desktop {
     display: inline;
-}
+  }
 
   .description-container div {
     grid-row: 1;
   }
 
   .description {
-    margin-top: 0;        
-}
+    margin-top: 0;
+  }
 
   footer .div-section {
     display: flex;
@@ -103,4 +102,40 @@
     flex: 1 1 calc(25% - 1rem);
   }
 
+  .column-container {
+    display: none;
+  }
+
+  .basket {
+    position: fixed;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    bottom: 1rem;
+    right: 2rem;
+    border-style: solid, #533f31;
+    padding-top: 0.7rem;
+    border-radius: 50%;
+    color: white;
+    background-color: #533f31;
+    z-index: 1;
+  }
+
+  .material-icon {
+    font-size: 38px;
+  }
+
+  .counter {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 50%;
+  }
 }
