@@ -51,13 +51,20 @@ main {
         display: flex;
         justify-content: center;
         position: relative;
+        overflow: hidden;
+        display: inline-block;
     }
 
     .image-container img {
         max-width: 100%;
         max-height: auto;
         object-fit: cover;
+        transition: transform 0.1s ease;
     }
+
+    .image-container:hover img {
+        transform: scale(1.9);
+      }
 
     .image-container .magnifier {
         position: absolute;
